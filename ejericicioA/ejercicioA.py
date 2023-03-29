@@ -2,17 +2,17 @@
 
 Comportamiento esperado:
 
-print(Palindromo.esPalindromo('radar')) 
->>> True 
-print(Palindromo.esPalindromo('sonar')) 
->>> False 
-print(Palindromo.esPalindromo('Arde ya la yedra')) 
->>> False 
-print(Palindromo.esPalindromo('Ardeyalayedra')) 
->>> True 
-print(Palindromo.esPalindromo('!@#$% %$#@!')) 
->>> True 
-print(Palindromo.esPalindromo('L O L')) 
+print(Palindromo.esPalindromo('radar'))
+>>> True
+print(Palindromo.esPalindromo('sonar'))
+>>> False
+print(Palindromo.esPalindromo('Arde ya la yedra'))
+>>> False
+print(Palindromo.esPalindromo('Ardeyalayedra'))
+>>> True
+print(Palindromo.esPalindromo('!@#$% %$#@!'))
+>>> True
+print(Palindromo.esPalindromo('L O L'))
 >>> True """
 
 
@@ -21,11 +21,17 @@ print(Palindromo.esPalindromo('L O L'))
 class Palindromo:
     def __init__(self, palabra):
         self.palabra = palabra
-    def esPalindromo(self):
-        palabra = input("Por favor introduce la palabra que quieres comprobar: ")
-        if palabra ==
-        return True
+
+    @classmethod
+    def esPalindromo(cls):
+        palabra = int(input("Por favor introduce la palabra que quieres comprobar: "))
+        if palabra == reverse(palabra):
+            return True
         else:
             return False
-
-print(Palindromo.esPalindromo(palabra))
+        print(Palindromo.esPalindromo('radar'))
+        print(Palindromo.esPalindromo('sonar'))
+        print(Palindromo.esPalindromo('Arde ya la yedra'))
+        print(Palindromo.esPalindromo('Ardeyalayedra'))
+        print(Palidromo.esPalindromo('!@#$% %$#@!'))
+        print(Palindromo.esPalindromo('L O L'))
