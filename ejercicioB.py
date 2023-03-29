@@ -11,5 +11,6 @@ print(p.test())
 >>> False
 SONAR
 Pregunta adicional: ¿por qué se muestra RADAR después de la instanciación Palindromo("sonar")? """
-
 from ejercicioA import Palindromo
+class Palindromo(Palindromo):
+    def __init__(self, palabra):
