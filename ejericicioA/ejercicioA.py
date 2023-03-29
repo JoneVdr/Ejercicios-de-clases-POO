@@ -14,3 +14,18 @@ print(Palindromo.esPalindromo('!@#$% %$#@!'))
 >>> True 
 print(Palindromo.esPalindromo('L O L')) 
 >>> True """
+
+
+#Codigo:
+
+class Palindromo:
+    def __init__(self, palabra):
+        self.palabra = palabra
+    def esPalindromo(self):
+        palabra = input("Por favor introduce la palabra que quieres comprobar: ")
+        if palabra ==
+        return True
+        else:
+            return False
+
+print(Palindromo.esPalindromo(palabra))
