@@ -24,8 +24,8 @@ class Palindromo:
 
     @classmethod
     def esPalindromo(cls):
-        palabra = int(input("Por favor introduce la palabra que quieres comprobar: "))
-        if palabra == reverse(palabra):
+        palabra = palabra.replace(' ', '').lower()
+        if palabra == palabra[::-1]:
             return True
         else:
             return False
