@@ -2,14 +2,14 @@
 
 Comportamiento esperado:
 
-p = Palindromo("radar") 
-print(p.test()) 
->>> True 
-p = Palindromo("sonar") 
->>> RADAR 
-print(p.test()) 
->>> False 
-SONAR 
+p = Palindromo("radar")
+print(p.test())
+>>> True
+p = Palindromo("sonar")
+>>> RADAR
+print(p.test())
+>>> False
+SONAR
 Pregunta adicional: ¿por qué se muestra RADAR después de la instanciación Palindromo("sonar")? """
 
 from ejercicioA import Palindromo
